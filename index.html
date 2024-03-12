@@ -40,11 +40,18 @@
     
     <ul>
         <li>Google AdMob for advertising purposes. For details on their privacy practices, refer to <a href="https://support.google.com/admob/answer/6128543?hl=en" target="_blank">Google AdMob's Privacy Policy</a>.</li>
-        <li>OpenAI's ChatGPT for text enhancement. Information on their data handling is available in <a href="https://openai.com/policies/privacy-policy" target="_blank">OpenAI's Privacy Policy</a>.</li>
-        <li>ModelsLab for image generation. Their privacy practices can be reviewed at <a href="https://modelslab.com/p/privacy-policy" target="_blank">ModelsLab Privacy Policy</a>.</li>
+        <li>Midjourney, in conjunction with GoAPI, for image generation and content moderation. Midjourney is used for its advanced image generation capabilities, while GoAPI serves as an intermediary that facilitates communication with Midjourney and provides additional moderation to ensure the user-generated content meets our community standards and to prevent unwanted content. For privacy practices, please refer to <a href="https://docs.midjourney.com/docs/privacy-policy" target="_blank">Midjourney's Privacy Policy</a> and <a href="https://www.goapi.ai/privacy-policy" target="_blank">GoAPI's Privacy Policy</a> respective privacy policies .</li>
         <li>Google Firebase services for analytics, crash reporting, logging, and configuration management. Details are provided in <a href="https://firebase.google.com/support/privacy" target="_blank">Firebase's Privacy Policy</a>.</li>
         <li>Detect Language API for text language recognition. Details are provided in <a href="https://detectlanguage.com/privacy_policy" target="_blank">Detect Language API Privacy Policy</a>.</li>
+        <li>Detect Amazon Web Services (AWS) S3 for processing user images into public URLs for use with Midjourney. Details are provided in <a href="https://aws.amazon.com/privacy" target="_blank">AWS Privacy Policy</a>.</li>
     </ul>
+    <h2>Handling User Images with AWS S3</h2>
+    <p>To facilitate the image generation process with Midjourney, ArtiFlow temporarily uploads user images to Amazon Web Services (AWS) S3. This step is necessary to create a public URL for Midjourney to access the image, as it only accepts public URLs for processing. We prioritize your privacy and data security throughout this process:</p>
+    <ul>
+        <li>Temporary Storage: User images are only stored temporarily on AWS S3 to generate a public URL for Midjourney's access.</li>
+        <li>Deletion Policy: As soon as Midjourney has accessed the image URL, the image is promptly deleted from our AWS S3 bucket. This ensures your images are not stored any longer than necessary.</li>
+        <li>Data Security: We use secure connections and adhere to best practices in data security and privacy to protect the images you upload during this process.</li>
+   </ul>
     <h2>Subscription Features</h2>
     <p>ArtiFlow offers subscription features through Google Play, including a paid daily trial, weekly, and monthly subscriptions. Google is responsible for handling refunds. Please refer to <a href="https://play.google.com/intl/en-US_us/about/play-terms/" target="_blank">Google Play's terms of service and privacy policy</a> for more details.</p>
     <h2>User Rights</h2>
